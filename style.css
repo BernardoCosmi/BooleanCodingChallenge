@@ -1,0 +1,95 @@
+/* Margini-BoxSizing-Font */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Expressa;
+    src: url(Expressa\ Regular.ttf);
+}
+
+/* Sfondo */
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contenitore generale */
+#container{
+    margin: auto;
+    margin-top: 1%;
+    width: 65%;
+    padding: 2%;
+    padding-bottom: 7%;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 20px 20px 20px 20px;
+    font-family: Expressa;
+}
+
+/* Sezione logo */
+header > img{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin:auto;
+} 
+
+header > h1{
+    text-align: center;
+    color: lime;
+    padding-bottom: 1%;
+}
+
+/* Sezione Menù con bottoni */
+#buttonmenù{
+    margin: auto;
+    width: 90%;
+    padding: 1.5%;
+    background-color: lime;
+    text-align: center;
+}
+
+#buttonmenù button{
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+
+/* Sezione monopattini disponibili */
+.monopattini{
+    color: white;
+    padding-left: 5%;
+}
+
+#opzioni{
+    padding-top: 2%;
+    text-align: left;
+}
+
+div#opzioni h2, p, div{
+    padding-bottom: 0.5%;
+}
+
+/* Indicatori di carica (div vuoti e colorati) */
+.carica{
+    border-radius: 10px 10px 10px 10px;
+    height: 30px;
+}
+
+.carica.uno{
+    width: 400px;
+    background-color: orange;
+}
+
+.carica.due{
+    width: 800px;
+    background-color: green;
+}
+
+.carica.tre{
+    width: 150px;
+    background-color: red;
+}
